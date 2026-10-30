@@ -46,10 +46,16 @@ Rules: read instructor version → close it → rewrite from memory in my own no
 - [ ] TDM variants from scratch — binary, tf, length-norm, max-norm, log, tf-idf (+ sklearn smoothed idf and l2)
 - [ ] Co-occurrence matrix homework
 
-## Priority 3: Image Processing revise
-- [ ] Labs 1–4 from memory — threshold, grayscale weights, padding, log/gamma/contrast stretch
-- [ ] Lab 5 — avg/weighted/gaussian filters, fix exit() ordering bug, try median filter on salt_pepper_duck
-- [ ] Answer: what `borderType` does in cv2.filter2D
+## Priority 3: Image Processing
+- [ ] Assignment 1 — grayscale → binary, mean threshold + user threshold (lab1)
+- [ ] Assignment 2 — RGB → grayscale, user weights + mean average (lab2)
+- [ ] Assignment 3 — padding, complement, binary + complement padded (lab3)
+- [ ] Assignment 4 — log transform, gamma transform, contrast stretching with user ranges (lab4)
+- [ ] Assignment 5 — averaging, weighted max(|x|,|y|), gaussian filters with user size/sigma/padding (lab5). Fix exit() ordering bug
+- [ ] Rewrite all five from memory in one sitting, no notes
+- [ ] Try median filter on salt_pepper_duck, compare with averaging
+- [ ] Answer: what `borderType` does in cv2.filter2D, why kernels are normalised
+- [ ] New image labs as sir gives them — add here
 
 ## Final stretch: mock practicals
 - [ ] Blank notebook, 45 min timer, no notes, one random topic. Log mistakes in `MISTAKES.md`
