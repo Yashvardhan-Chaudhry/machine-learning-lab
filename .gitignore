@@ -26,3 +26,8 @@ Thumbs.db
 *.pt
 *.pth
 *.ckpt
+
+# IMDb ratings dump (30 MB) - keep local, re-download from https://datasets.imdbws.com/title.ratings.tsv.gz
+Data_Collection/API_material/title.ratings.tsv
+# TMDb API key notebook
+**/tmdbapi.ipynb
